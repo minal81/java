@@ -16,7 +16,7 @@ class Student
 		System.out.println("Enter the Student mobile NO.:");
 		long StudentMObNo=s.nextLong();
 		System.out.println("Enter the Student CGPA:");
-		float StudentCGPA=s.nextfloat();
+		float StudentCGPA=s.nextFloat();
 		
 		
 		
