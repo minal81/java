@@ -3,13 +3,13 @@ class looping
 public static void main(String arg[])
   {
 
-      int i=3;
+      int i=11;
       do
       {
           System.out.println(i);
-          i++;
+          i--;
 
-      }while(i<=11);
+      }while(i>3);
 
   }
 }
