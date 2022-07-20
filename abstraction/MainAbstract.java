@@ -2,7 +2,7 @@ abstract class Bank
 {
 	abstract void getBalance(int bal);
 }
-class A extends Bank
+class BankA extends Bank
 {
     void getBalance(int bal)
     {
@@ -10,7 +10,7 @@ class A extends Bank
     }
 	
 }
-class B extends Bank
+class BankB extends Bank
 {
     void getBalance(int bal)
     {
@@ -18,7 +18,7 @@ class B extends Bank
     }
 	
 }
-class C extends Bank
+class BankC extends Bank
 {
     void getBalance(int bal)
     {
@@ -30,11 +30,11 @@ class MainAbstract
 {
 	public static void main(String Arg[])
 	{
-		A a=new A();
+		BankA a=new BankA();
 		a.getBalance(100);
-		B b=new B();
+		BankB b=new BankB();
 		b.getBalance(150);
-		C c=new C();
+		BankC c=new BankC();
 		c.getBalance(200);
 	}
 }
