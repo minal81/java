@@ -8,16 +8,11 @@ class Asending
       char[] Arr1={'c','o','i','p','u'};
       Arrays.sort(Arr);
       System.out.println("integer sorted array");
-      for(int i=0;i<5;i++)
-      {
-          System.out.println(""+Arr[i]);
-      }
+      System.out.println(""+Arrays.toString(Arr));
+		
       Arrays.sort(Arr1);
       System.out.println("charater sorted array");
-      for(int i=0;i<5;i++)
-      {
-          System.out.println(""+Arr1[i]);
-      }
+      System.out.println(""+Arrays.toString(Arr1));
 	}
 }
 	
