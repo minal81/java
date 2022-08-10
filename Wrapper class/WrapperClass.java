@@ -4,7 +4,7 @@ public static void main(String arg[])
 	{
 		int a=14;
 		int b=15;
-		int c=17;
+		int c=14;
 		Integer p=Integer.valueOf(a);
 		Integer q=Integer.valueOf(b);
 		Integer r=Integer.valueOf(c);
