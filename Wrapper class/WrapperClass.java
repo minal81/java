@@ -8,13 +8,17 @@ public static void main(String arg[])
 		Integer p=Integer.valueOf(a);
 		Integer q=Integer.valueOf(b);
 		Integer r=Integer.valueOf(c);
-		if(p.equals(a)|| q.equals(b)||r.equals(c))
+		if(p.equals(q))
 		{
-			System.out.println("both are same");
+			System.out.println("p and q are same");
 		}
-		else
+		else if(q.equals(r))
 		{
-			System.out.println("both are not same because one is datatype and other is wrapper class object");
+			System.out.println("q and r are same");
 		}
+		else if(p.equals(r))
+		{
+			System.out.println("p and r are same");
+		}	
 	}
 }
