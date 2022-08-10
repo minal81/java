@@ -16,7 +16,7 @@ public static void main(String arg[])
 		{
 			System.out.println("q and r are same");
 		}
-		else if(p.equals(r))
+		else
 		{
 			System.out.println("p and r are same");
 		}	
